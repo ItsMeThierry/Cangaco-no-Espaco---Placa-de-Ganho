@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AD625")(type "KiCad")(uri "/home/thierry/Documents/KiCad/AD625JNZ/AD625JNZ.kicad_sym")(options "")(descr ""))
+  (lib (name "Celula de Carga")(type "KiCad")(uri "/home/thierry/Documents/KiCad/Modulo das Celulas de Carga/Celula_de_Carga_Half_Bridge.kicad_sym")(options "")(descr ""))
+  (lib (name "AD744")(type "KiCad")(uri "/home/thierry/Documents/KiCad/AD744JNZ/AD744JNZ.kicad_sym")(options "")(descr ""))
+)
