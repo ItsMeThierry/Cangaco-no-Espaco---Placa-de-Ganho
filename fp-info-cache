@@ -1,4 +1,4 @@
-27307250666328980
+27312603024530005
 AD625
 DIP254P762X432-16
 
@@ -2960,28 +2960,49 @@ Gauge Massstab 100mm SilkScreenTop Type 2
 0
 0
 0
-Cangaço
+Cangaco
+CANGACO_PinHeader_1.0mm_hole
+Through hole straight pin header, 1x04, 2.00mm pitch, single row
+Through hole pin header THT 1x04 2.00mm single row
+0
+4
+4
+Cangaco
+CANGACO_PinHeader_1x02_0.8mm
+Through hole straight pin header, 1x02, 1.00mm pitch, single row
+Through hole pin header THT 1x02 1.00mm single row
+0
+2
+2
+Cangaco
+CANGACO_Resistor_0.8mm
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
+Cangaco
 SPACE-CP_Radial_D4.0mm_P2.00mm
 CP, Radial series, Radial, pin pitch=2.00mm, diameter=4mm, height=7mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.00mm diameter 4mm height 7mm Electrolytic Capacitor
 0
 2
 2
-Cangaço
+Cangaco
 SPACE-PinHeader_1x06_P2.00mm_Vertical
 Through hole straight pin header, 1x06, 2.00mm pitch, single row
 Through hole pin header THT 1x06 2.00mm single row
 0
 6
 6
-Cangaço
+Cangaco
 SPACE-Potentiometer_Bourns_3296W_Vertical
 Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf
 Potentiometer vertical Bourns 3296W
 0
 3
 3
-Cangaço
+Cangaco
 SPACE-TO-220-3_Vertical
 TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf, generated with kicad-footprint-generator TO_SOT_THT_generate.py
 TO-220-3 Vertical RM 2.54mm

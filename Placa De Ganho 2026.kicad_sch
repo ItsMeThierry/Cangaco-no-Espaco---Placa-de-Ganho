@@ -1674,374 +1674,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x07_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x07_Pin"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x07, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x07_Pin_1_1"
-				(rectangle
-					(start 0.8636 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 7.62) (xy 0.8636 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 7.62 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3178,16 +2810,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 124.46) (xy 49.53 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b928a95-b946-4ca6-bddc-3b5788d44532")
-	)
-	(wire
-		(pts
 			(xy 132.08 90.17) (xy 132.08 92.71)
 		)
 		(stroke
@@ -3298,6 +2920,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 156.21) (xy 38.1 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4588beb2-7580-4d36-8440-c6409ab83b92")
+	)
+	(wire
+		(pts
 			(xy 53.34 95.25) (xy 63.5 95.25)
 		)
 		(stroke
@@ -3348,16 +2980,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 119.38) (xy 34.29 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c8f7d44-2392-4459-8707-cf50e4d0875d")
-	)
-	(wire
-		(pts
 			(xy 59.69 87.63) (xy 59.69 100.33)
 		)
 		(stroke
@@ -3365,16 +2987,6 @@
 			(type default)
 		)
 		(uuid "5e4a2fed-6644-46bd-a2a2-56810c82ee45")
-	)
-	(wire
-		(pts
-			(xy 49.53 124.46) (xy 49.53 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f9fe2e0-1981-48d3-ba6c-9d8354759d6c")
 	)
 	(wire
 		(pts
@@ -3435,6 +3047,16 @@
 			(type default)
 		)
 		(uuid "71a57f99-9ea6-451a-9a11-00fdc31eabdb")
+	)
+	(wire
+		(pts
+			(xy 30.48 102.87) (xy 49.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7381e90d-8591-4260-8ac6-9737e515c711")
 	)
 	(wire
 		(pts
@@ -3568,26 +3190,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 102.87) (xy 49.53 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "984204e4-6c7b-4483-80b9-3388e45ce22b")
-	)
-	(wire
-		(pts
-			(xy 25.4 127) (xy 38.1 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a8bd89f-874e-4f93-a140-44dd3de22206")
-	)
-	(wire
-		(pts
 			(xy 46.99 107.95) (xy 46.99 105.41)
 		)
 		(stroke
@@ -3625,6 +3227,16 @@
 			(type default)
 		)
 		(uuid "a1986603-0882-439c-abdb-0c2d49e15ec2")
+	)
+	(wire
+		(pts
+			(xy 30.48 105.41) (xy 36.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3050162-9d01-44d1-9717-0663b7918df4")
 	)
 	(wire
 		(pts
@@ -3725,6 +3337,16 @@
 			(type default)
 		)
 		(uuid "b3baad73-6875-4a99-b158-e885867e0b68")
+	)
+	(wire
+		(pts
+			(xy 30.48 153.67) (xy 49.53 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8aaff5b-bc0d-48f2-be0b-1b499cae2e29")
 	)
 	(wire
 		(pts
@@ -3858,16 +3480,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 121.92) (xy 36.83 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd8cb2ee-146a-474a-bf99-18353d62e936")
-	)
-	(wire
-		(pts
 			(xy 63.5 95.25) (xy 63.5 97.79)
 		)
 		(stroke
@@ -3905,26 +3517,6 @@
 			(type default)
 		)
 		(uuid "e4226e03-6963-4c94-8594-c957f5ae1071")
-	)
-	(wire
-		(pts
-			(xy 25.4 121.92) (xy 36.83 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5fa041d-d3e1-4523-8a52-7ec25f242f41")
-	)
-	(wire
-		(pts
-			(xy 38.1 127) (xy 38.1 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e87f581c-7e02-42f0-9c59-184d0f87cbfa")
 	)
 	(wire
 		(pts
@@ -3988,16 +3580,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 119.38) (xy 25.4 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30b0ec0-9362-462e-a42a-e7b8bf2013de")
-	)
-	(wire
-		(pts
 			(xy 153.67 88.9) (xy 153.67 110.49)
 		)
 		(stroke
@@ -4055,74 +3637,6 @@
 			(type default)
 		)
 		(uuid "fc317cdb-70f4-4953-a13f-7fa42550d3f4")
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 273.05 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "021aad81-d029-4aeb-9c62-f7dfe8ac47ff")
-		(property "Reference" "J1"
-			(at 272.415 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Output"
-			(at 272.415 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 273.05 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 273.05 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e6285fd-6c71-43aa-a957-83cac7dab7fa")
-		)
-		(pin "1"
-			(uuid "097d6636-165d-430a-8e19-9acaa0966cbf")
-		)
-		(instances
-			(project ""
-				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4220,7 +3734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 173.99 90.678 90)
 			(effects
 				(font
@@ -4606,140 +4120,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 25.4 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b37da08-83ed-4c00-ac38-79b4960a6130")
-		(property "Reference" "#PWR021"
-			(at 21.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 29.21 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 25.4 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df0e6d9b-cee7-48a6-8131-5aa633eaed7d")
-		)
-		(instances
-			(project ""
-				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eecf42d-481a-4a19-aca2-113f1d020dc3")
-		(property "Reference" "#PWR014"
-			(at 31.75 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb868c59-ad49-4195-9f1d-087675ee6b53")
-		)
-		(instances
-			(project ""
-				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 241.3 130.81 0)
 		(unit 1)
@@ -4949,7 +4329,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 120.65 270)
+		(at 267.97 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4958,7 +4338,7 @@
 		(fields_autoplaced yes)
 		(uuid "29479569-c128-47db-9310-82f8f1919305")
 		(property "Reference" "#PWR01"
-			(at 261.62 120.65 0)
+			(at 261.62 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +4347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 120.6499 90)
+			(at 264.16 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 120.65 0)
+			(at 267.97 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +4365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 120.65 0)
+			(at 267.97 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +4374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 120.65 0)
+			(at 267.97 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +4487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 40.64 107.188 90)
 			(effects
 				(font
@@ -5144,6 +4524,74 @@
 			(project ""
 				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 25.4 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2df85151-c97e-40f4-871d-6f11568f82e3")
+		(property "Reference" "J5"
+			(at 26.035 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Wheatstone_02"
+			(at 26.035 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cangaco:CANGACO_PinHeader_1x02_0.8mm"
+			(at 25.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 25.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ac3203a-18d9-4493-a092-55b4997093c5")
+		)
+		(pin "1"
+			(uuid "0cf0e859-620f-444f-b82e-f270a993db45")
+		)
+		(instances
+			(project ""
+				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5378,7 +4826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 241.3 88.138 90)
 			(effects
 				(font
@@ -5512,7 +4960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cangaço:SPACE-Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Cangaco:SPACE-Potentiometer_Bourns_3296W_Vertical"
 			(at 217.17 114.3 0)
 			(effects
 				(font
@@ -5552,89 +5000,6 @@
 			(project "Placa De Ganho 2026"
 				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
 					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x07_Pin")
-		(at 20.32 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47dca97d-2a25-47aa-a902-b71bcd81eea7")
-		(property "Reference" "J3"
-			(at 20.955 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Sensores"
-			(at 20.955 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x07_P1.27mm_Vertical"
-			(at 20.32 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 20.32 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "18009edb-f122-4195-abcc-b7941c14be41")
-		)
-		(pin "1"
-			(uuid "25e01650-b036-4984-b941-66ccbe366341")
-		)
-		(pin "3"
-			(uuid "e0ce0fe7-d8af-4c51-9695-39d6fca7dbc6")
-		)
-		(pin "7"
-			(uuid "e26659b8-1869-4307-9ad4-c9800cd55d10")
-		)
-		(pin "6"
-			(uuid "cc83a302-d76b-499b-9f48-4927c4430d4b")
-		)
-		(pin "2"
-			(uuid "997d72ee-dc41-45f2-950f-037893433582")
-		)
-		(pin "5"
-			(uuid "5efdf5b5-e884-474c-9d53-b3e0d53d1550")
-		)
-		(instances
-			(project ""
-				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5733,7 +5098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 53.34 104.648 90)
 			(effects
 				(font
@@ -5800,7 +5165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 67.31 89.408 90)
 			(effects
 				(font
@@ -6150,6 +5515,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 25.4 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59cfde72-5354-4f02-a251-46f4c0ccc407")
+		(property "Reference" "J6"
+			(at 26.035 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Wheatstone_Alim"
+			(at 26.035 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-03_1x03_P5.08mm_Horizontal"
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5972cf29-1d75-4193-86cf-6913b5d8827b")
+		)
+		(pin "2"
+			(uuid "f8368b0d-233f-4a48-a923-acb05325c34b")
+		)
+		(pin "1"
+			(uuid "e3f6ff5d-7297-4a12-abf8-4602975b5b14")
+		)
+		(instances
+			(project ""
+				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 67.31 146.05 90)
 		(unit 1)
@@ -6174,7 +5610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 67.31 147.828 90)
 			(effects
 				(font
@@ -6436,7 +5872,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "Conn_Estagio_2_Out"
 			(at 203.835 58.42 0)
 			(effects
 				(font
@@ -6485,16 +5921,15 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 25.4 129.54 270)
+		(at 30.48 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "719ab1cd-5ec4-4874-9a83-c9033a4ea073")
+		(uuid "748ada68-e5cc-461f-849b-1c140f8a0ce4")
 		(property "Reference" "#PWR022"
-			(at 21.59 129.54 0)
+			(at 26.67 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +5938,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 29.21 129.5399 90)
+			(at 33.02 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +5947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 129.54 0)
+			(at 30.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +5956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 129.54 0)
+			(at 30.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +5965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 25.4 129.54 0)
+			(at 30.48 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,10 +5974,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad476ac6-94d2-48f6-9392-fc40cce543b3")
+			(uuid "7b104259-d38b-42f0-83fa-efc9bed923cc")
 		)
 		(instances
-			(project ""
+			(project "Placa De Ganho 2026"
 				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
 					(reference "#PWR022")
 					(unit 1)
@@ -6792,7 +6227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 142.24 118.872 90)
 			(effects
 				(font
@@ -7333,7 +6768,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cangaço:SPACE-Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Cangaco:SPACE-Potentiometer_Bourns_3296W_Vertical"
 			(at 162.56 124.46 0)
 			(effects
 				(font
@@ -7603,7 +7038,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 67.31 97.028 90)
 			(effects
 				(font
@@ -7712,6 +7147,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VSS")
+		(at 30.48 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5c81c7a-2916-4297-af88-c20fbfcedae2")
+		(property "Reference" "#PWR021"
+			(at 26.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 34.29 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 30.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d16c66d1-001b-47f6-9bdf-bbceb640b7a1")
+		)
+		(instances
+			(project "Placa De Ganho 2026"
+				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 53.34 91.44 0)
 		(unit 1)
@@ -7739,7 +7241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 51.562 91.44 90)
 			(effects
 				(font
@@ -7807,7 +7309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 53.34 155.448 90)
 			(effects
 				(font
@@ -7875,7 +7377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 41.91 157.988 90)
 			(effects
 				(font
@@ -8052,6 +7554,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 30.48 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c44bdf52-b0d1-403a-8598-21b3dde19568")
+		(property "Reference" "#PWR014"
+			(at 36.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a68abe31-e12f-41b4-8958-0fa40a585017")
+		)
+		(instances
+			(project "Placa De Ganho 2026"
+				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 219.71 127 90)
 		(unit 1)
@@ -8077,7 +7646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cangaço:SPACE-Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "Cangaco:SPACE-Potentiometer_Bourns_3296W_Vertical"
 			(at 219.71 127 0)
 			(effects
 				(font
@@ -8117,6 +7686,71 @@
 			(project "Placa De Ganho 2026"
 				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
 					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 273.05 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c703374b-5e08-467c-8492-5bcedaceb95c")
+		(property "Reference" "J7"
+			(at 272.415 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Terra_Out"
+			(at 272.415 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 273.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 273.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5439bdae-e889-4ea2-9425-e453c5dac5f6")
+		)
+		(instances
+			(project "Placa De Ganho 2026"
+				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8217,7 +7851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 67.31 140.208 90)
 			(effects
 				(font
@@ -8388,6 +8022,71 @@
 			(project "Placa De Ganho 2026"
 				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 273.05 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d87ef71e-21be-40c5-9b8c-64079c2d9ec7")
+		(property "Reference" "J1"
+			(at 272.415 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Estagio_3_Out"
+			(at 272.415 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ae47464-dad5-415d-ad0a-d988abbed5ac")
+		)
+		(instances
+			(project "Placa De Ganho 2026"
+				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8907,7 +8606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 51.562 142.24 90)
 			(effects
 				(font
@@ -9285,7 +8984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 205.74 116.078 90)
 			(effects
 				(font
@@ -9322,6 +9021,74 @@
 			(project "Placa De Ganho 2026"
 				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 25.4 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f27449cc-8ee7-4922-b27b-2b6f25b9f447")
+		(property "Reference" "J3"
+			(at 26.035 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Wheatstone01"
+			(at 26.035 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Cangaco:CANGACO_PinHeader_1x02_0.8mm"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ac3203a-18d9-4493-a092-55b4997093c6")
+		)
+		(pin "1"
+			(uuid "0cf0e859-620f-444f-b82e-f270a993db46")
+		)
+		(instances
+			(project ""
+				(path "/c9b84cd3-3c7f-4089-a6c3-44bc151786ed"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9420,7 +9187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Cangaco:CANGACO_Resistor_0.8mm"
 			(at 142.24 112.268 90)
 			(effects
 				(font
